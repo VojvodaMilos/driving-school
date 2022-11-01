@@ -1,0 +1,15 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.navbar ul {
+    display: flex;
+    gap: 50px;
+    font-weight: 700;
+    font-size: 1.8rem;
+    color: $gray;
+
+}

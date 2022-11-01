@@ -1,0 +1,26 @@
+.topbar {
+    background-color: $primaryColor;
+    color: $white;
+    font-size: 1.4rem;
+    padding: 11px 0;
+
+    ul {
+        display: flex;
+        justify-content: flex-end;
+
+
+        li {
+
+            border-right: 1px solid $white;
+            padding: 0 10px;
+
+            &:last-child {
+                border-right: none;
+            }
+
+            i {
+                margin-right: 5px;
+            }
+        }
+    }
+}

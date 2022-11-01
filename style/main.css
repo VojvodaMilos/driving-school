@@ -1,4 +1,65 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Nunito+Sans:ital,wght@0,300;0,600;1,700&display=swap");
-/**************
-GLOBAL
-**************//*# sourceMappingURL=main.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Nunito+Sans:wght@300;400;700&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.topbar {
+  background-color: #233785;
+  color: #ffffff;
+  font-size: 1.4rem;
+  padding: 11px 0;
+}
+.topbar ul {
+  display: flex;
+  justify-content: flex-end;
+}
+.topbar ul li {
+  border-right: 1px solid #ffffff;
+  padding: 0 10px;
+}
+.topbar ul li:last-child {
+  border-right: none;
+}
+.topbar ul li i {
+  margin-right: 5px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.navbar ul {
+  display: flex;
+  gap: 50px;
+  font-weight: 700;
+  font-size: 1.8rem;
+  color: #808080;
+}/*# sourceMappingURL=main.css.map */
