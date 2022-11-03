@@ -13,11 +13,6 @@ body {
     font-family: $primaryFont;
 }
 
-.container {
-    width: 80%;
-    margin: 0 auto;
-}
-
 ul {
     list-style: none;
 }
@@ -25,4 +20,39 @@ ul {
 a {
     text-decoration: none;
     color: inherit;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.col-all {
+    display: flex;
+    gap: 30px;
+
+    div {
+        width: 100%;
+    }
+}
+
+.header {
+        
+    margin-bottom: 30px;
+    text-align: center;
+    // border-bottom: 5px solid $primaryColor;
+
+    h2 {
+        text-transform: uppercase;
+        font-size: 3rem;
+
+        &::after {
+            content: "";
+            display: block;
+            width: 70px;
+            height: 5px;
+            background-color: $primaryColor;
+            margin: 15px auto;
+        }
+    }
 }

@@ -14,11 +14,6 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
-.container {
-  width: 80%;
-  margin: 0 auto;
-}
-
 ul {
   list-style: none;
 }
@@ -26,6 +21,36 @@ ul {
 a {
   text-decoration: none;
   color: inherit;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.col-all {
+  display: flex;
+  gap: 30px;
+}
+.col-all div {
+  width: 100%;
+}
+
+.header {
+  margin-bottom: 30px;
+  text-align: center;
+}
+.header h2 {
+  text-transform: uppercase;
+  font-size: 3rem;
+}
+.header h2::after {
+  content: "";
+  display: block;
+  width: 70px;
+  height: 5px;
+  background-color: #233785;
+  margin: 15px auto;
 }
 
 .topbar {
@@ -151,27 +176,8 @@ nav {
 .about {
   padding: 100px 0;
 }
-.about header {
-  margin-bottom: 30px;
-  text-align: center;
-}
-.about header h2 {
-  text-transform: uppercase;
-  font-size: 3rem;
-}
-.about header h2::after {
-  content: "";
-  display: block;
-  width: 70px;
-  height: 5px;
-  background-color: #233785;
-  margin: 15px auto;
-}
 
 .about article {
-  display: flex;
-  justify-content: space-between;
-  gap: 30px;
   overflow: hidden;
 }
 
@@ -179,7 +185,6 @@ nav {
   height: 300px;
   position: relative;
   color: #ffffff;
-  width: 100%;
 }
 .wraper img {
   width: 100%;
@@ -197,6 +202,9 @@ nav {
   font-weight: 700;
   background-color: rgba(35, 55, 133, 0.7);
   transition: 0.4s ease;
+}
+.wraper h3 i {
+  margin-right: 5px;
 }
 .wraper div {
   display: flex;
@@ -220,4 +228,49 @@ nav {
 
 .wraper:hover div {
   top: 0;
+}
+
+.feature {
+  padding: 100px 0;
+  background-color: #f2f2f2;
+  min-height: 60vh;
+}
+.feature article {
+  margin-top: 8rem;
+}
+.feature article > div {
+  border: 1px solid black;
+  border-radius: 10px;
+  height: 215px;
+  padding: 5rem 20px 20px;
+  text-align: center;
+  position: relative;
+}
+.feature article > div h3 {
+  font-weight: 700;
+}
+
+.feature .icon-rotate {
+  width: 60px;
+  height: 60px;
+  border-radius: 7px;
+  background-color: #233785;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  transform: rotate(45deg);
+  top: -30px;
+  left: 42%;
+}
+.feature .icon-rotate i {
+  transform: rotate(-45deg);
+  color: white;
+  font-size: 30px;
+}
+.feature .icon-rotate .za-flex {
+  display: block;
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }/*# sourceMappingURL=main.css.map */

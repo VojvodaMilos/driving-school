@@ -1,0 +1,55 @@
+.feature {
+    padding: 100px 0;
+    background-color: $lightGray;
+    min-height: 60vh;
+
+    article {
+        margin-top: 8rem;
+    }
+
+
+    article>div {
+        border: 1px solid black;
+        border-radius: 10px;
+        height: 215px;
+        padding: 5rem 20px 20px;
+        text-align: center;
+        position: relative;
+
+        h3 {
+            font-weight: 700;
+        }
+
+
+    }
+}
+
+.feature .icon-rotate {
+
+    width: 60px;
+    height: 60px;
+    border-radius: 7px;
+    background-color: #233785;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    transform: rotate(45deg);
+    top: -30px;
+    left: 42%;
+
+    i {
+        transform: rotate(-45deg);
+        color: white;
+        font-size: 30px;
+
+    }
+
+    .za-flex {
+        display: block;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        
+    }
+}
