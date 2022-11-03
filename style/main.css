@@ -261,7 +261,7 @@ nav {
   position: absolute;
   transform: rotate(45deg);
   top: -30px;
-  left: 42%;
+  left: calc(50% - 30px);
 }
 .feature .icon-rotate i {
   transform: rotate(-45deg);

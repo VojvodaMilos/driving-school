@@ -36,7 +36,7 @@
     position: absolute;
     transform: rotate(45deg);
     top: -30px;
-    left: 42%;
+    left: calc(50% - 30px);
 
     i {
         transform: rotate(-45deg);
@@ -50,6 +50,6 @@
         width: 100%;
         display: flex;
         justify-content: center;
-        
+
     }
 }
