@@ -1,0 +1,61 @@
+.curses {
+    min-height: 60vh;
+    padding: 100px 0;
+
+    p {
+        text-align: center;
+    }
+
+    article {
+        a {
+            display: inline-block;
+            background-color: $primaryColor;
+            color: $white;
+            padding: 15px 30px;
+            font-weight: 700;
+            border-radius: 5px;
+            border: none;
+            cursor: pointer;
+            margin-top: 25px;
+
+        }
+
+        .card {
+            height: 420px;
+            border: 1px solid $gray;
+            border-radius: 5px;
+
+            img {
+                width: 100%;
+                height: 250px;
+                object-fit: cover;
+            }
+
+            div {
+                padding: 10px;
+
+                h4 {
+                    padding-top: 5px;
+                }
+
+                // a {
+                //     display: inline-block;
+                //     background-color: $primaryColor;
+                //     color: $white;
+                //     padding: 15px 30px;
+                //     font-weight: 700;
+                //     border-radius: 5px;
+                //     border: none;
+                //     cursor: pointer;
+                //     margin-top: 25px;
+
+                // }
+            }
+        }
+    }
+
+    .btn {
+        display: flex;
+        justify-content: center;
+    }
+}
