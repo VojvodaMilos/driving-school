@@ -313,4 +313,113 @@ nav {
 .curses .btn {
   display: flex;
   justify-content: center;
+}
+
+.subscribe {
+  padding: 100px;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/testimonial-bg-01.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: #ffffff;
+}
+.subscribe a {
+  display: inline-block;
+  background-color: #f2f2f2;
+  color: #000;
+  padding: 15px 30px;
+  font-weight: 700;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  margin-top: 25px;
+}
+
+.inp {
+  text-align: center;
+}
+.inp input {
+  background-color: inherit;
+  border: none;
+  border-bottom: 1px solid white;
+  width: 30%;
+  font-size: 1.8rem;
+  padding: 10px;
+  margin-right: 5px;
+}
+
+.map {
+  position: relative;
+}
+.map iframe {
+  width: 100%;
+}
+.map::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.map .location {
+  width: 6rem;
+  height: 6rem;
+  background-color: #233785;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+  z-index: 2;
+}
+.map .location i {
+  font-size: 3rem;
+  color: white;
+  transform: rotate(-45deg);
+}
+
+.fo {
+  background-color: #333333;
+  color: #ffffff;
+}
+
+.footer {
+  padding: 70px;
+  display: grid;
+  grid-template-columns: 3fr 1fr 2fr;
+  grid-template-rows: 1fr 3fr;
+  gap: 20px;
+  grid-template-areas: "a c  d " "b e  f";
+  line-height: 2;
+}
+.footer img {
+  grid-area: a;
+}
+.footer p {
+  grid-area: b;
+}
+.footer .h3 {
+  grid-area: c;
+  text-transform: uppercase;
+}
+.footer h3 {
+  grid-area: d;
+}
+.footer .ul1 {
+  grid-area: e;
+}
+.footer ul:last-child {
+  grid-area: f;
+}
+.footer ul:last-child i {
+  margin-right: 10px;
+}
+
+.coursesPage {
+  padding: 100px 0;
 }/*# sourceMappingURL=main.css.map */
