@@ -478,8 +478,17 @@ nav {
   line-height: 1.5;
   padding-right: 20px;
 }
-.aboutPage .first div .ul li::bifore {
+.aboutPage .first div .ul li::before {
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
-  content: "\f007";
+  content: "\f058";
+  color: #233785;
+  margin: 5px;
+}
+.aboutPage .first iframe {
+  width: 50%;
+}
+
+.first {
+  margin: 100px 0;
 }/*# sourceMappingURL=main.css.map */
