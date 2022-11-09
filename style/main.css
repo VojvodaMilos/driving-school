@@ -422,4 +422,64 @@ nav {
 
 .coursesPage {
   padding: 100px 0;
+}
+.coursesPage .card {
+  border: 1px solid #333333;
+  border-radius: 5px;
+  display: flex;
+  margin: 20px;
+}
+.coursesPage .card img {
+  width: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.coursesPage .card div {
+  padding: 15px;
+  font-size: 1.7rem;
+}
+.coursesPage .card div h4 {
+  padding: 10px 0;
+}
+.coursesPage .card a {
+  display: inline-block;
+  background-color: #233785;
+  color: #ffffff;
+  padding: 15px 30px;
+  font-weight: 700;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  margin-top: 25px;
+}
+.coursesPage .card:nth-child(even) {
+  flex-direction: row-reverse;
+  background-color: #f2f2f2;
+}
+.coursesPage .card:nth-child(even) div {
+  text-align: right;
+}
+
+.aboutPage article > h2 {
+  text-align: left;
+}
+.aboutPage article > h2::after {
+  content: "";
+  margin: 15px 0;
+}
+.aboutPage .first {
+  padding-top: 100px;
+  display: flex;
+}
+.aboutPage .first div {
+  width: 50%;
+}
+.aboutPage .first div p {
+  line-height: 1.5;
+  padding-right: 20px;
+}
+.aboutPage .first div .ul li::bifore {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f007";
 }/*# sourceMappingURL=main.css.map */

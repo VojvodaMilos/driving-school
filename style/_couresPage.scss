@@ -1,3 +1,48 @@
 .coursesPage {
     padding: 100px 0;
+
+
+    .card {
+        border: 1px solid $darkGray;
+        border-radius: 5px;
+        display: flex;
+        margin: 20px;
+
+        img {
+            width: 300px;
+            object-fit: cover;
+        }
+
+        div {
+            padding: 15px;
+            font-size: 1.7rem;
+
+            h4 {
+                padding: 10px 0;
+            }
+        }
+
+        a {
+            display: inline-block;
+            background-color: $primaryColor;
+            color: $white;
+            padding: 15px 30px;
+            font-weight: 700;
+            border-radius: 5px;
+            border: none;
+            cursor: pointer;
+            margin-top: 25px;
+
+        }
+
+        &:nth-child(even) {
+            flex-direction: row-reverse;
+            background-color: $lightGray;
+
+            div {
+                text-align: right;
+            }
+
+        }
+    }
 }
